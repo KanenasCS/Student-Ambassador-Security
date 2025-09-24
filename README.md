@@ -31,7 +31,7 @@ The goal is to help students, IT professionals, and Ambassadors learn and apply 
    ├─ ConditionalAccess-Security-Baseline.json
    ├─ Entra-ID-Governance-Guide.md
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 Import KQL queries into Microsoft Sentinel.
 
@@ -39,9 +39,9 @@ Deploy Playbooks via Logic Apps Designer.
 
 Try out XDR lab scenarios in your test/education environment.
 
-##⚠️ Note: These resources are for learning and community contribution purposes. Always test in a non-production environment first.
+### ⚠️ Note: These resources are for learning and community contribution purposes. Always test in a non-production environment first.
 
-🎯 Use Cases
+### 🎯 Use Cases
 
 Learn how to build detections in Microsoft Sentinel.
 
@@ -51,7 +51,7 @@ Strengthen identity security with Entra ID governance.
 
 Share and reuse resources across the Student Ambassador community.
 
-👩‍💻 Contributions
+###👩‍💻 Contributions
 
 This is an open community repo. Contributions are welcome!
 
@@ -61,7 +61,7 @@ Share your own KQL queries, playbooks, or labs.
 
 Add feedback/issues under the Issues tab.
 
-🌍 Community & Student Ambassador Impact
+### 🌍 Community & Student Ambassador Impact
 
 This repo is part of my journey as a Microsoft Learn Student Ambassador (MLSA).
 
@@ -71,7 +71,7 @@ Open-source contributions for the global security community.
 
 Supports my MVP-aligned focus on SIEM & XDR.
 
-📬 Connect
+### 📬 Connect
 
 LinkedIn: www.linkedin.com/in/konstantinos-lianos
 
