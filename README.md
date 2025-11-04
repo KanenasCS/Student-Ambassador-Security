@@ -12,9 +12,14 @@ It contains ready-to-use resources for the community:
 
 ✅ Identity security (Entra ID Conditional Access, governance)
 
+✅ Custom Integrations with Logic App
+
 The goal is to help students, IT professionals, and Ambassadors learn and apply Microsoft Security technologies in real-world scenarios.
 
 📂 Repository Structure
+/Logic Apps
+   ├─ Auth0
+   ├─ Juniper Mist
 /KQL-Queries
    ├─ InsiderThreat.kql
    ├─ DataExfiltration.kql
