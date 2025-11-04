@@ -17,6 +17,7 @@ It contains ready-to-use resources for the community:
 The goal is to help students, IT professionals, and Ambassadors learn and apply Microsoft Security technologies in real-world scenarios.
 
 📂 Repository Structure
+
 /Logic Apps
    ├─ Auth0
    ├─ Juniper Mist
