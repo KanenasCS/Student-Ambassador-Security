@@ -20,6 +20,7 @@ The goal is to help students, IT professionals, and Ambassadors learn and apply 
 /Logic Apps
    ├─ Auth0
    ├─ Juniper Mist
+   
 /KQL-Queries
    ├─ InsiderThreat.kql
    ├─ DataExfiltration.kql
