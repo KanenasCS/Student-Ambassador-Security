@@ -1,0 +1,22 @@
+
+# Total Usage Per Table
+Usage
+| where StartTime {TimeRange:value}
+| summarize ['Table Size'] =sum(Quantity)/1000 by ['TableName'] =DataType,['IsBillable'] =IsBillable
+| order by ['Table Size']  desc
+
+#Daily Consumption for "{TableName}" Table
+{TableName}
+| summarize BillableDataGB = sum(_BilledSize) / 1000 / 1000 / 1000. by bin(TimeGenerated, 1d)
+| order by TimeGenerated
+ 
+#Drill Down Analysis for "{TableName}" Table
+{TableName}
+| summarize BillableDataGB = sum(_BilledSize) / 1000 / 1000 / 1000. by DeviceVendor
+| order by BillableDataGB
+ 
+#Drill Down Analysis for "{TableName}" Table -2
+{TableName}
+| where DeviceVendor == "{DeviceVendor}"
+| summarize BillableDataGB = sum(_BilledSize) / 1000 / 1000 / 1000. by DeviceName
+| order by BillableDataGB
