@@ -110,3 +110,51 @@ Use the EICAR test file to safely validate alerting.
 
 ```text
 X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+
+Save the file as EICAR.txt
+
+Open Command Prompt
+
+Run:
+
+type EICAR.txt
+Expected Result
+
+Microsoft Defender Antivirus should detect the file and generate an alert.
+
+## Part 6 — Investigate in Microsoft Defender XDR
+Open Microsoft Defender portal
+Go to Incidents
+Locate the new incident or alert related to the VM
+Open the incident
+Review the following:
+Affected device
+Alert story
+Evidence
+Recommended actions
+Investigations tab
+Student Evidence to Capture
+Screenshot showing Defender for Servers enabled
+Screenshot showing the VM onboarded
+Screenshot showing the incident
+Short explanation of what alert was triggered and which asset was involved
+
+## Part 7 — Review Cloud Posture Findings
+
+In Defender for Cloud, review:
+
+Recommendations
+
+Secure score
+
+Asset inventory
+
+Exercise
+
+Find one recommendation for the VM and document:
+
+The recommendation name
+
+The risk or impact
+
+One remediation step
